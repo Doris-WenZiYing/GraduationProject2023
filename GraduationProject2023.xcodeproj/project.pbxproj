@@ -8,10 +8,15 @@
 
 /* Begin PBXBuildFile section */
 <<<<<<< a9cadf8cbe648c2b0ce8093da468cfa2e91baef9
+<<<<<<< a9cadf8cbe648c2b0ce8093da468cfa2e91baef9
 =======
 		A35B55342B6FACB60052271B /* CameraVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35B55332B6FACB60052271B /* CameraVIewModel.swift */; };
 		A35B55362B6FAD8D0052271B /* QrcodeScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35B55352B6FAD8D0052271B /* QrcodeScanView.swift */; };
 		A35B55382B6FAD980052271B /* LogoScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35B55372B6FAD980052271B /* LogoScanView.swift */; };
+=======
+		A35B55342B6FACB60052271B /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35B55332B6FACB60052271B /* CameraViewModel.swift */; };
+		A35B55362B6FAD8D0052271B /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35B55352B6FAD8D0052271B /* ScanView.swift */; };
+>>>>>>> add qrcode & logo scan
 		A35B553B2B6FAF240052271B /* AdidasPO202311300002.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A35B553A2B6FAF240052271B /* AdidasPO202311300002.mlmodel */; };
 >>>>>>> rename CameraView into CameraViewModel
 		A37E41AF2B626A280007E974 /* GraduationProject2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37E41AE2B626A280007E974 /* GraduationProject2023App.swift */; };
@@ -19,14 +24,21 @@
 		A37E41B32B626A280007E974 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37E41B22B626A280007E974 /* Item.swift */; };
 		A37E41B52B626A2A0007E974 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A37E41B42B626A2A0007E974 /* Assets.xcassets */; };
 		A37E41B82B626A2A0007E974 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A37E41B72B626A2A0007E974 /* Preview Assets.xcassets */; };
+		A39A0F3A2B70E9540042A926 /* Camera+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39A0F392B70E9540042A926 /* Camera+Extensions.swift */; };
+		A39A0F3C2B70EA4A0042A926 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39A0F3B2B70EA4A0042A926 /* RootView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+<<<<<<< a9cadf8cbe648c2b0ce8093da468cfa2e91baef9
 <<<<<<< a9cadf8cbe648c2b0ce8093da468cfa2e91baef9
 =======
 		A35B55332B6FACB60052271B /* CameraVIewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVIewModel.swift; sourceTree = "<group>"; };
 		A35B55352B6FAD8D0052271B /* QrcodeScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrcodeScanView.swift; sourceTree = "<group>"; };
 		A35B55372B6FAD980052271B /* LogoScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoScanView.swift; sourceTree = "<group>"; };
+=======
+		A35B55332B6FACB60052271B /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
+		A35B55352B6FAD8D0052271B /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+>>>>>>> add qrcode & logo scan
 		A35B553A2B6FAF240052271B /* AdidasPO202311300002.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = AdidasPO202311300002.mlmodel; sourceTree = "<group>"; };
 >>>>>>> rename CameraView into CameraViewModel
 		A37E41AB2B626A280007E974 /* GraduationProject2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraduationProject2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,6 +47,8 @@
 		A37E41B22B626A280007E974 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		A37E41B42B626A2A0007E974 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A37E41B72B626A2A0007E974 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A39A0F392B70E9540042A926 /* Camera+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Camera+Extensions.swift"; sourceTree = "<group>"; };
+		A39A0F3B2B70EA4A0042A926 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +75,7 @@
 		A35B553C2B6FAFA90052271B /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				A35B55332B6FACB60052271B /* CameraVIewModel.swift */,
+				A35B55332B6FACB60052271B /* CameraViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -70,8 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				A37E41B02B626A280007E974 /* ContentView.swift */,
-				A35B55352B6FAD8D0052271B /* QrcodeScanView.swift */,
-				A35B55372B6FAD980052271B /* LogoScanView.swift */,
+				A35B55352B6FAD8D0052271B /* ScanView.swift */,
+				A39A0F3B2B70EA4A0042A926 /* RootView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -98,8 +112,12 @@
 			children = (
 				A37E41AE2B626A280007E974 /* GraduationProject2023App.swift */,
 <<<<<<< a9cadf8cbe648c2b0ce8093da468cfa2e91baef9
+<<<<<<< a9cadf8cbe648c2b0ce8093da468cfa2e91baef9
 				A37E41B02B626A280007E974 /* ContentView.swift */,
 =======
+=======
+				A39A0F382B70E93B0042A926 /* Extensions */,
+>>>>>>> add qrcode & logo scan
 				A35B553D2B6FAFB70052271B /* View */,
 				A35B553C2B6FAFA90052271B /* ViewModel */,
 				A35B55392B6FAEF60052271B /* MLModels */,
@@ -117,6 +135,14 @@
 				A37E41B72B626A2A0007E974 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A39A0F382B70E93B0042A926 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A39A0F392B70E9540042A926 /* Camera+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,14 +215,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A39A0F3C2B70EA4A0042A926 /* RootView.swift in Sources */,
 				A37E41B12B626A280007E974 /* ContentView.swift in Sources */,
+<<<<<<< a9cadf8cbe648c2b0ce8093da468cfa2e91baef9
+=======
+				A35B55362B6FAD8D0052271B /* ScanView.swift in Sources */,
+>>>>>>> add qrcode & logo scan
 				A37E41B32B626A280007E974 /* Item.swift in Sources */,
 				A37E41AF2B626A280007E974 /* GraduationProject2023App.swift in Sources */,
+<<<<<<< a9cadf8cbe648c2b0ce8093da468cfa2e91baef9
 <<<<<<< a9cadf8cbe648c2b0ce8093da468cfa2e91baef9
 =======
 				A35B55382B6FAD980052271B /* LogoScanView.swift in Sources */,
 				A35B55342B6FACB60052271B /* CameraVIewModel.swift in Sources */,
 >>>>>>> rename CameraView into CameraViewModel
+=======
+				A39A0F3A2B70E9540042A926 /* Camera+Extensions.swift in Sources */,
+				A35B55342B6FACB60052271B /* CameraViewModel.swift in Sources */,
+>>>>>>> add qrcode & logo scan
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

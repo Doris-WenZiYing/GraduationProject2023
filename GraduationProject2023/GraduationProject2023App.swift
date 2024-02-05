@@ -25,7 +25,7 @@ struct GraduationProject2023App: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
         }
         .modelContainer(sharedModelContainer)
     }
